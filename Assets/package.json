@@ -1,0 +1,10 @@
+{
+  "name": "com.mrtinotano.commonpackage",
+  "version": "1.0.0",
+  "displayName": "Common scripts Package",
+  "description": "Scripts used in most of other packages",
+  "unity": "2021.3",
+  "author": {
+    "name": "mrtinotano"
+  }
+}
