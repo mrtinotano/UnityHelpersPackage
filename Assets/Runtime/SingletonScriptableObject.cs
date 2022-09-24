@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Helpers
+namespace Utilities
 {
     public class SingletonScriptableObject<T> : ScriptableObject where T : ScriptableObject
     {
@@ -23,6 +23,7 @@ namespace Helpers
                         instance = AssetDatabase.LoadAssetAtPath(path, typeof(T)) as T;
                     }
 #else
+                    //To find this asset in build, make sure to include it in Player Settings->Other Settings->Preloaded Assets 
                     instance = FindObjectOfType<T>();
 #endif
                 }

@@ -1,7 +1,7 @@
 {
-  "name": "com.mrtinotano.commonpackage",
+  "name": "com.mrtinotano.utilitiespackage",
   "version": "1.0.0",
-  "displayName": "Common scripts Package",
+  "displayName": "Utility scripts Package",
   "description": "Scripts used in most of other packages",
   "unity": "2021.3",
   "author": {
