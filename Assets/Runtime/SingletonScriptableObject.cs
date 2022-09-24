@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace voodooTest
+namespace Helpers
 {
     public class SingletonScriptableObject<T> : ScriptableObject where T : ScriptableObject
     {
