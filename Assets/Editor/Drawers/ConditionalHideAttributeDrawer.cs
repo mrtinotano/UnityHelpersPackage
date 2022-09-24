@@ -13,6 +13,7 @@ namespace Utilities
             if (!IsPropertyEnabled(property, label))
                 return;
 
+            label.text = property.displayName;
             EditorGUI.PropertyField(position, property, label, true);
         }
 
